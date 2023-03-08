@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.test {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(167, 210, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(167, 210, 244, 1) 0%,
+    rgba(198, 250, 252, 1) 50%,
+    rgba(125, 193, 255, 1) 100%
+  );
+  -webkit-box-shadow: 6px 5px 121px 6px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 6px 5px 121px 6px rgba(0, 0, 0, 1);
+  box-shadow: 6px 5px 121px 6px rgba(0, 0, 0, 1);
+}
+.questions span {
+  width: 100%;
+}
+.testdiv {
+  width: 100%;
+  height: 35%;
+  border-bottom: 0.5px solid black;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testdiv p {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.testdiv1 {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+}
+.questions {
+  width: 50%;
+  padding: 30px;
+  /* background-color: aqua; */
+}
+.questions div {
+  border: 1px solid black;
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.questions1 span {
+  text-align: center;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+  border: 0.2px solid black;
+  background-color: rgb(255, 255, 255, 0.3);
+  /* background: rgb(81, 162, 193); */
+  /* 
+  background: linear-gradient(
+    90deg,
+    rgba(81, 162, 193, 1) 0%,
+    rgba(29, 253, 232, 1) 50%,
+    rgba(69, 202, 252, 1) 100%
+  ); */
+  /* background-color: red; */
+  /* padding: 25px; */
+  border-radius: 9px;
+}
+.Login {
+  background: rgb(170, 169, 169);
+  background: radial-gradient(
+    circle,
+    rgba(170, 169, 169, 1) 0%,
+    rgba(82, 81, 81, 1) 100%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.succes {
+  background: rgb(170, 169, 169);
+  background: radial-gradient(
+    circle,
+    rgba(170, 169, 169, 1) 0%,
+    rgba(82, 81, 81, 1) 100%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card2 {
+  width: 70%;
+  height: 70%;
+  border: 0.5px solid white;
+  border-radius: 15px;
+}
+.loading {
+  display: flex;
+  flex-direction: row;
+}
+.loading img {
+  display: inline-flex;
+  width: 50px;
+}
+#loading {
+  display: none;
+}
+#loading p {
+  font-size: 35px;
+}
+.card {
+  display: flex;
+  /* display: none; */
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  padding: 25px;
+  border-radius: 9px;
+  background-color: rgb(178, 176, 176);
+  -webkit-box-shadow: 12px 10px 102px -5px rgba(77, 77, 77, 0.73);
+  -moz-box-shadow: 12px 10px 102px -5px rgba(77, 77, 77, 0.73);
+  box-shadow: 12px 10px 102px -5px rgba(77, 77, 77, 0.73);
+}
+.text img {
+  height: 20px;
+  padding-right: 10px;
+}
+.password img {
+  height: 20px;
+  padding-right: 10px;
+}
+.userlog {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.userlog p {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.text,
+.password {
+  border: 0.5px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.textdiv {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textdiv p {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.button button {
+  display: inline-flex;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(177, 242, 156, 0.833);
+  border-radius: 9px;
+  padding: 10px;
+  margin-top: 15px;
+  width: 30%;
+}
+
+.submit button {
+  display: inline-flex;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(177, 242, 156, 0.833);
+  border-radius: 9px;
+  padding: 10px;
+  margin-top: 15px;
+  width: 100%;
+}
+.imagebutt {
+  padding-right: 5px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+}
+.card input {
+  background-color: rgb(178, 176, 176);
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
+  border: none;
+  /* border-bottom: 1px solid black; */
+}
